@@ -93,7 +93,7 @@ You can also use the provided Python scripts in this repo to generate combined p
     
 -   `report.pdf`: Final report with graphs and analysis
 
-## ##  Conclusion
+## Conclusion
 
 This project provided valuable insights into how different congestion control algorithms behave under varying network conditions. Through detailed testing using the Pantheon framework, it became clear that Cubic is highly effective in high-bandwidth environments, delivering the best throughput performance but at the cost of higher latency and packet loss in constrained networks. BBR, on the other hand, consistently maintained lower delays across both test scenarios, making it a strong choice for latency-sensitive applications, though it sacrifices some throughput. Vegas offered a balanced approach, with moderate throughput and the lowest loss rates, but struggled to maintain low delays under stress. 
 
