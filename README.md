@@ -79,8 +79,8 @@ python2 src/analysis/analyze.py --data-dir test_1mbps_200ms
 ## Output
 All result graphs (throughput, delay, loss rate) and data logs are stored in:
 ```bash
-pantheon/test_50mbps_10ms/
-pantheon/test_1mbps_200ms/
+pantheon/src/experiments/rohitfiles_50mbps_10ms/
+pantheon/src/experiments/rohitfiles_1mbps_200ms/
 ```
 You can also use the provided Python scripts in this repo to generate combined plots (e.g., RTT vs. Throughput).
 
